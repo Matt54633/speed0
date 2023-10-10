@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767F015A2B3871A300E601D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767F01362B3871A200E601D0 /* Assets.xcassets */; };
+		767F015B2B3871A300E601D0 /* pinnedCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01382B3871A200E601D0 /* pinnedCamera.swift */; };
+		767F015C2B3871A300E601D0 /* DigitalSpeedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F013C2B3871A300E601D0 /* DigitalSpeedo.swift */; };
+		767F015D2B3871A300E601D0 /* SportSpeedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F013D2B3871A300E601D0 /* SportSpeedo.swift */; };
+		767F015E2B3871A300E601D0 /* NeonSpeedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F013E2B3871A300E601D0 /* NeonSpeedo.swift */; };
+		767F015F2B3871A300E601D0 /* DefaultSpeedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F013F2B3871A300E601D0 /* DefaultSpeedo.swift */; };
+		767F01602B3871A300E601D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01412B3871A300E601D0 /* Home.swift */; };
+		767F01612B3871A300E601D0 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01432B3871A300E601D0 /* CustomSlider.swift */; };
+		767F01622B3871A300E601D0 /* SpeedoCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01452B3871A300E601D0 /* SpeedoCarousel.swift */; };
+		767F01632B3871A300E601D0 /* WidgetCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01462B3871A300E601D0 /* WidgetCarousel.swift */; };
+		767F01642B3871A300E601D0 /* AvgSpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01482B3871A300E601D0 /* AvgSpeedView.swift */; };
+		767F01652B3871A300E601D0 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01492B3871A300E601D0 /* InfoView.swift */; };
+		767F01662B3871A300E601D0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F014A2B3871A300E601D0 /* MapView.swift */; };
+		767F01672B3871A300E601D0 /* AddCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F014B2B3871A300E601D0 /* AddCameraView.swift */; };
+		767F01682B3871A300E601D0 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F014C2B3871A300E601D0 /* MusicView.swift */; };
+		767F01692B3871A300E601D0 /* SongDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F014E2B3871A300E601D0 /* SongDetails.swift */; };
+		767F016A2B3871A300E601D0 /* PlaybackControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F014F2B3871A300E601D0 /* PlaybackControls.swift */; };
+		767F016C2B3871A300E601D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767F01522B3871A300E601D0 /* Preview Assets.xcassets */; };
+		767F016D2B3871A300E601D0 /* SpeedometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01532B3871A300E601D0 /* SpeedometerApp.swift */; };
+		767F016E2B3871A300E601D0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01552B3871A300E601D0 /* AppState.swift */; };
+		767F01702B3871A300E601D0 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01572B3871A300E601D0 /* MusicManager.swift */; };
+		767F01712B3871A300E601D0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01582B3871A300E601D0 /* LocationManager.swift */; };
+		767F01722B3871A300E601D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F01592B3871A300E601D0 /* ContentView.swift */; };
+		768DFD972B40B13A007D41CE /* ControlCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DFD962B40B13A007D41CE /* ControlCarousel.swift */; };
+		768DFD9A2B4187B7007D41CE /* button.wav in Resources */ = {isa = PBXBuildFile; fileRef = 768DFD992B4187B7007D41CE /* button.wav */; };
+		769E9A352B419681003FE241 /* camera_alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 769E9A342B419681003FE241 /* camera_alert.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76540CD12AD544DB00830952 /* Speedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767F01362B3871A200E601D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767F01382B3871A200E601D0 /* pinnedCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pinnedCamera.swift; sourceTree = "<group>"; };
+		767F01392B3871A200E601D0 /* Speedometer.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Speedometer.entitlements; sourceTree = "<group>"; };
+		767F013C2B3871A300E601D0 /* DigitalSpeedo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalSpeedo.swift; sourceTree = "<group>"; };
+		767F013D2B3871A300E601D0 /* SportSpeedo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportSpeedo.swift; sourceTree = "<group>"; };
+		767F013E2B3871A300E601D0 /* NeonSpeedo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeonSpeedo.swift; sourceTree = "<group>"; };
+		767F013F2B3871A300E601D0 /* DefaultSpeedo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSpeedo.swift; sourceTree = "<group>"; };
+		767F01412B3871A300E601D0 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		767F01432B3871A300E601D0 /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		767F01452B3871A300E601D0 /* SpeedoCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedoCarousel.swift; sourceTree = "<group>"; };
+		767F01462B3871A300E601D0 /* WidgetCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetCarousel.swift; sourceTree = "<group>"; };
+		767F01482B3871A300E601D0 /* AvgSpeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvgSpeedView.swift; sourceTree = "<group>"; };
+		767F01492B3871A300E601D0 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		767F014A2B3871A300E601D0 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		767F014B2B3871A300E601D0 /* AddCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCameraView.swift; sourceTree = "<group>"; };
+		767F014C2B3871A300E601D0 /* MusicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		767F014E2B3871A300E601D0 /* SongDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetails.swift; sourceTree = "<group>"; };
+		767F014F2B3871A300E601D0 /* PlaybackControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackControls.swift; sourceTree = "<group>"; };
+		767F01522B3871A300E601D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		767F01532B3871A300E601D0 /* SpeedometerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedometerApp.swift; sourceTree = "<group>"; };
+		767F01552B3871A300E601D0 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		767F01572B3871A300E601D0 /* MusicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		767F01582B3871A300E601D0 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		767F01592B3871A300E601D0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		768DFD962B40B13A007D41CE /* ControlCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCarousel.swift; sourceTree = "<group>"; };
+		768DFD992B4187B7007D41CE /* button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button.wav; sourceTree = "<group>"; };
+		769E9A342B419681003FE241 /* camera_alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = camera_alert.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76540CCE2AD544DB00830952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76540CC82AD544DB00830952 = {
+			isa = PBXGroup;
+			children = (
+				76540CD32AD544DB00830952 /* Speedometer */,
+				76540CD22AD544DB00830952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76540CD22AD544DB00830952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76540CD12AD544DB00830952 /* Speedometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76540CD32AD544DB00830952 /* Speedometer */ = {
+			isa = PBXGroup;
+			children = (
+				768DFD982B4187A6007D41CE /* Sound Effects */,
+				767F01362B3871A200E601D0 /* Assets.xcassets */,
+				767F01592B3871A300E601D0 /* ContentView.swift */,
+				767F01542B3871A300E601D0 /* Managers */,
+				767F01372B3871A200E601D0 /* Models */,
+				767F01512B3871A300E601D0 /* Preview Content */,
+				767F01392B3871A200E601D0 /* Speedometer.entitlements */,
+				767F01532B3871A300E601D0 /* SpeedometerApp.swift */,
+				767F013A2B3871A300E601D0 /* Views */,
+			);
+			path = Speedometer;
+			sourceTree = "<group>";
+		};
+		767F01372B3871A200E601D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				767F01382B3871A200E601D0 /* pinnedCamera.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		767F013A2B3871A300E601D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				767F013B2B3871A300E601D0 /* Speedometers */,
+				767F01402B3871A300E601D0 /* Home */,
+				767F01422B3871A300E601D0 /* Custom Elements */,
+				767F01442B3871A300E601D0 /* Carousels */,
+				767F01472B3871A300E601D0 /* Nav Widgets */,
+				767F014D2B3871A300E601D0 /* MusicPlayer Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		767F013B2B3871A300E601D0 /* Speedometers */ = {
+			isa = PBXGroup;
+			children = (
+				767F013C2B3871A300E601D0 /* DigitalSpeedo.swift */,
+				767F013D2B3871A300E601D0 /* SportSpeedo.swift */,
+				767F013E2B3871A300E601D0 /* NeonSpeedo.swift */,
+				767F013F2B3871A300E601D0 /* DefaultSpeedo.swift */,
+			);
+			path = Speedometers;
+			sourceTree = "<group>";
+		};
+		767F01402B3871A300E601D0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				767F01412B3871A300E601D0 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		767F01422B3871A300E601D0 /* Custom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				767F01432B3871A300E601D0 /* CustomSlider.swift */,
+			);
+			path = "Custom Elements";
+			sourceTree = "<group>";
+		};
+		767F01442B3871A300E601D0 /* Carousels */ = {
+			isa = PBXGroup;
+			children = (
+				767F01452B3871A300E601D0 /* SpeedoCarousel.swift */,
+				767F01462B3871A300E601D0 /* WidgetCarousel.swift */,
+				768DFD962B40B13A007D41CE /* ControlCarousel.swift */,
+			);
+			path = Carousels;
+			sourceTree = "<group>";
+		};
+		767F01472B3871A300E601D0 /* Nav Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				767F01482B3871A300E601D0 /* AvgSpeedView.swift */,
+				767F01492B3871A300E601D0 /* InfoView.swift */,
+				767F014A2B3871A300E601D0 /* MapView.swift */,
+				767F014B2B3871A300E601D0 /* AddCameraView.swift */,
+				767F014C2B3871A300E601D0 /* MusicView.swift */,
+			);
+			path = "Nav Widgets";
+			sourceTree = "<group>";
+		};
+		767F014D2B3871A300E601D0 /* MusicPlayer Views */ = {
+			isa = PBXGroup;
+			children = (
+				767F014E2B3871A300E601D0 /* SongDetails.swift */,
+				767F014F2B3871A300E601D0 /* PlaybackControls.swift */,
+			);
+			path = "MusicPlayer Views";
+			sourceTree = "<group>";
+		};
+		767F01512B3871A300E601D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				767F01522B3871A300E601D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		767F01542B3871A300E601D0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				767F01552B3871A300E601D0 /* AppState.swift */,
+				767F01572B3871A300E601D0 /* MusicManager.swift */,
+				767F01582B3871A300E601D0 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		768DFD982B4187A6007D41CE /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				769E9A342B419681003FE241 /* camera_alert.wav */,
+				768DFD992B4187B7007D41CE /* button.wav */,
+			);
+			path = "Sound Effects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76540CD02AD544DB00830952 /* Speedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76540CE02AD544DC00830952 /* Build configuration list for PBXNativeTarget "Speedometer" */;
+			buildPhases = (
+				76540CCD2AD544DB00830952 /* Sources */,
+				76540CCE2AD544DB00830952 /* Frameworks */,
+				76540CCF2AD544DB00830952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speedometer;
+			productName = Speedometer;
+			productReference = 76540CD12AD544DB00830952 /* Speedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76540CC92AD544DB00830952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					76540CD02AD544DB00830952 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 76540CCC2AD544DB00830952 /* Build configuration list for PBXProject "Speedometer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76540CC82AD544DB00830952;
+			productRefGroup = 76540CD22AD544DB00830952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76540CD02AD544DB00830952 /* Speedometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76540CCF2AD544DB00830952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769E9A352B419681003FE241 /* camera_alert.wav in Resources */,
+				767F016C2B3871A300E601D0 /* Preview Assets.xcassets in Resources */,
+				767F015A2B3871A300E601D0 /* Assets.xcassets in Resources */,
+				768DFD9A2B4187B7007D41CE /* button.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76540CCD2AD544DB00830952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767F016D2B3871A300E601D0 /* SpeedometerApp.swift in Sources */,
+				768DFD972B40B13A007D41CE /* ControlCarousel.swift in Sources */,
+				767F015D2B3871A300E601D0 /* SportSpeedo.swift in Sources */,
+				767F01722B3871A300E601D0 /* ContentView.swift in Sources */,
+				767F01612B3871A300E601D0 /* CustomSlider.swift in Sources */,
+				767F01632B3871A300E601D0 /* WidgetCarousel.swift in Sources */,
+				767F015C2B3871A300E601D0 /* DigitalSpeedo.swift in Sources */,
+				767F015B2B3871A300E601D0 /* pinnedCamera.swift in Sources */,
+				767F01712B3871A300E601D0 /* LocationManager.swift in Sources */,
+				767F01652B3871A300E601D0 /* InfoView.swift in Sources */,
+				767F016A2B3871A300E601D0 /* PlaybackControls.swift in Sources */,
+				767F01682B3871A300E601D0 /* MusicView.swift in Sources */,
+				767F01662B3871A300E601D0 /* MapView.swift in Sources */,
+				767F016E2B3871A300E601D0 /* AppState.swift in Sources */,
+				767F015F2B3871A300E601D0 /* DefaultSpeedo.swift in Sources */,
+				767F01702B3871A300E601D0 /* MusicManager.swift in Sources */,
+				767F01672B3871A300E601D0 /* AddCameraView.swift in Sources */,
+				767F01622B3871A300E601D0 /* SpeedoCarousel.swift in Sources */,
+				767F01692B3871A300E601D0 /* SongDetails.swift in Sources */,
+				767F01602B3871A300E601D0 /* Home.swift in Sources */,
+				767F015E2B3871A300E601D0 /* NeonSpeedo.swift in Sources */,
+				767F01642B3871A300E601D0 /* AvgSpeedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76540CDE2AD544DC00830952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76540CDF2AD544DC00830952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		76540CE12AD544DC00830952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Speedometer/Speedometer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_ASSET_PATHS = "\"Speedometer/Preview Content\"";
+				DEVELOPMENT_TEAM = W8974D23AK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speedometer/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = matt54633.Speedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76540CE22AD544DC00830952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Speedometer/Speedometer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_ASSET_PATHS = "\"Speedometer/Preview Content\"";
+				DEVELOPMENT_TEAM = W8974D23AK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speedometer/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = matt54633.Speedometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76540CCC2AD544DB00830952 /* Build configuration list for PBXProject "Speedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76540CDE2AD544DC00830952 /* Debug */,
+				76540CDF2AD544DC00830952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76540CE02AD544DC00830952 /* Build configuration list for PBXNativeTarget "Speedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76540CE12AD544DC00830952 /* Debug */,
+				76540CE22AD544DC00830952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76540CC92AD544DB00830952 /* Project object */;
+}
